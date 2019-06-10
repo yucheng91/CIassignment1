@@ -1,0 +1,58 @@
+body {
+    color:white;
+    font-weight: 100;
+    background-image: url("band.jpg");
+    background-position: center;
+}
+
+.container-fluid h1 {
+    font-weight: 100;
+    padding-top: 12px;
+}
+
+.border {
+    height:3px;
+    background-color:gold;
+    border:0;
+    padding:0;
+    color:gold;
+}
+
+.navbar  {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    font-weight:600;
+    background-color: gold;
+    padding:0 ;
+}
+
+.col-2 {
+    padding:20px;
+    text-align:right;
+}
+
+a { 
+    color:white;
+}
+
+.upcomingshow {
+    background:rgba(0, 0, 0, 0.5);
+    padding:20px;
+}
+
+.upcomingshow h1 {
+    
+    
+}
+
+@media (max-width: 767px) {
+    body {
+        font-size: 15px;
+    }
+    
+    h1 {
+        font-size: 27px;
+    }
+}
