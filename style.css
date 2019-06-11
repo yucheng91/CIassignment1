@@ -21,10 +21,10 @@ section {
 
 .border {
     height:3px;
-    background-color:gold;
+    background-color:grey;
     border:0;
     padding:0;
-    color:gold;
+    color:grey;
 }
 
 .navbar  {
@@ -79,6 +79,10 @@ img {
     object-fit: cover;
 }
 
+.btn {
+    text-align:center;
+}
+
 @media (max-width: 767px) {
     body {
         font-size: 15px;
@@ -93,7 +97,11 @@ img {
     }
     
     p {
-        font-size: 10px;
+        font-size: 15px;
+    }
+    
+    navbar {
+        font-size: 15px;
     }
     
 }
