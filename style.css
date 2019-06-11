@@ -5,10 +5,18 @@ body {
     background-position: center;
 }
 
+section {
+    padding-bottom:40px;
+}
+
 .container-fluid h1 {
     font-weight: 100;
     padding-top: 12px;
-    text-decoration:underline;
+    text-decoration: underline;
+}
+
+.container-fluid p {
+    text-align:center;
 }
 
 .border {
@@ -24,8 +32,8 @@ body {
     bottom: 0;
     width: 100%;
     color: white;
-    font-weight:600;
-    background-color: gold;
+    font-weight:100;
+    background-color: #151516;
     padding:0 ;
 }
 
@@ -36,7 +44,6 @@ body {
 
 a { 
     color:white;
-    text-decoration:none;
 }
 
 .upcomingshow {
@@ -67,7 +74,7 @@ footer {
 }
 
 img {
-    height: 450px;
+    height: 500px;
     width: 100%;
     object-fit: cover;
 }
@@ -85,7 +92,14 @@ img {
         font-size: 20px;
     }
     
-    ul {
+    p {
         font-size: 10px;
+    }
+    
+}
+
+@media (max-width:359px) {
+    section {
+        padding-bottom:76px;
     }
 }
