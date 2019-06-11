@@ -1,13 +1,14 @@
 body {
     color:white;
     font-weight: 100;
-    background-image: url("band.jpg");
+    background-image: url("background.jpg");
     background-position: center;
 }
 
 .container-fluid h1 {
     font-weight: 100;
     padding-top: 12px;
+    text-decoration:underline;
 }
 
 .border {
@@ -35,16 +36,40 @@ body {
 
 a { 
     color:white;
+    text-decoration:none;
 }
 
 .upcomingshow {
-    background:rgba(0, 0, 0, 0.5);
-    padding:20px;
+        background:rgba(0, 0, 0, 0.5);
 }
 
-.upcomingshow h1 {
-    
-    
+.upcomingshow h2{
+    text-align:center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration:underline;
+    font-weight:100;
+}
+
+.nobullet {
+    list-style-type: none;
+    padding-bottom:40px;
+    text-align:center;
+}
+
+footer {
+    bottom:0 ;
+    width: 100%;
+}
+
+.rsvpbutton {
+    border:1px solid white;
+}
+
+img {
+    height: 450px;
+    width: 100%;
+    object-fit: cover;
 }
 
 @media (max-width: 767px) {
@@ -54,5 +79,13 @@ a {
     
     h1 {
         font-size: 27px;
+    }
+    
+    h2 {
+        font-size: 20px;
+    }
+    
+    ul {
+        font-size: 10px;
     }
 }
