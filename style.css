@@ -6,10 +6,6 @@ body {
     background-size:cover;
 }
 
-section {
-    padding-top:20px:
-}
-
 .container-fluid h1 {
     font-weight: 100;
     padding-top: 12px;
@@ -102,7 +98,13 @@ h3 {
 
 .card {
     color:black;
-    background:rgba(255, 255, 255,0.95;
+    background:rgba(255, 255, 255,0.95);
+}
+
+.spotify {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media (max-width: 767px) {
