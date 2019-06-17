@@ -82,8 +82,7 @@ img {
 }
 
 .members {
-    padding-right:20px;
-    padding-left:20px;
+    padding:20px;
     background-color:rgba(242, 242, 242,0.2);
 }
 
@@ -94,6 +93,10 @@ h3 {
 
 .video {
     padding:20px;
+}
+
+.card {
+    color:black;
 }
 
 @media (max-width: 767px) {
