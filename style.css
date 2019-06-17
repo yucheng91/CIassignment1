@@ -1,11 +1,13 @@
 body {
     color:white;
     font-weight: 100;
-    background-image: url("background.jpg");
+    background-image: url("images/background.jpg");
     background-position: center;
+    background-size:cover;
 }
 
 section {
+    padding-top:40px;
     padding-bottom:40px;
 }
 
@@ -61,7 +63,7 @@ a {
 .nobullet {
     list-style-type: none;
     padding-bottom:40px;
-    text-align:center;
+    text-align:left;
 }
 
 footer {
@@ -79,8 +81,19 @@ img {
     object-fit: cover;
 }
 
-.btn {
-    text-align:center;
+.members {
+    padding-right:20px;
+    padding-left:20px;
+    background-color:rgba(242, 242, 242,0.2);
+}
+
+h3 {
+    font-weight:100;
+    text-decoration: underline;
+}
+
+.video {
+    padding:20px;
 }
 
 @media (max-width: 767px) {
