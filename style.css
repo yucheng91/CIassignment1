@@ -7,8 +7,7 @@ body {
 }
 
 section {
-    padding-top:40px;
-    padding-bottom:40px;
+    padding-top:20px:
 }
 
 .container-fluid h1 {
@@ -86,6 +85,11 @@ img {
     background-color:rgba(242, 242, 242,0.2);
 }
 
+.music {
+    padding:20px;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+
 h3 {
     font-weight:100;
     text-decoration: underline;
@@ -93,10 +97,12 @@ h3 {
 
 .video {
     padding:20px;
+    padding-bottom:80px;
 }
 
 .card {
     color:black;
+    background:rgba(255, 255, 255,0.95;
 }
 
 @media (max-width: 767px) {
