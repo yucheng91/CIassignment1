@@ -1,3 +1,46 @@
+.vintage__container {
+  display: inline-block;
+  margin: 25px auto 40px;
+}
+
+.vintage {
+  font-family: 'Six Caps', sans-serif;
+  font-size: 50px;
+  letter-spacing: 10px;
+  line-height: 1;
+  margin: 0;
+  position: relative;
+}
+
+.vintage__top {
+    color:rgb(255, 228, 193);
+    position: absolute;
+}
+
+.vintage__bot {
+  text-shadow: 
+    0px 0px rgb(255, 228, 193),
+    1px 1px rgb(255, 228, 193),
+    2px 2px rgb(100, 20, 15),
+    3px 3px rgb(105, 25, 20),
+    4px 4px rgb(110, 30, 25),
+    5px 5px rgb(115, 30, 30),
+    6px 6px rgb(120, 30, 35),
+    7px 7px black,
+    8px 8px black,
+    9px 9px black,
+    10px 10px black,
+    11px 11px rgba(0, 0, 0, 0.9),
+    12px 12px rgba(0, 0, 0, 0.7),
+    13px 13px rgba(0, 0, 0, 0.5),
+    14px 14px rgba(0, 0, 0, 0.1);
+
+}
+
+body {
+    text-align:center;
+}
+
 header {
     background-color:#f1ede2;
 }
