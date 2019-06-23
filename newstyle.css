@@ -1,3 +1,5 @@
+/*vintage container for the walters header*/
+
 .vintage__container {
   display: inline-block;
   margin: 25px auto 40px;
@@ -37,12 +39,20 @@
 
 }
 
+/*Style for entire website*/
+
 body {
     text-align:center;
+    background:url("images/Background2.jpg");
 }
 
 header {
-    background-color:#f1ede2;
+    background-color:#f1ede2CC;
+    color:rgb(80,76,65);
+}
+
+i {
+    color:rgb(162,155,126);
 }
 
 /*img is only for carousel*/
@@ -53,28 +63,53 @@ img {
 }
 
 #upcomingshow{
-    background-color:#8adad7;
+    background-color:#8adad7CC;
+    color:rgb(54,138,138);
+}
+
+.text-content {
+    font-family: 'Space Mono', monospace;
 }
 
 #themembers{
-    background-color:#f1ede2;
+    background-color:#f1ede2CC;
+    color:rgb(80,76,65)
+}
+
+#themembers img{
+    border-radius: 75px;
+    height:450px;
 }
 
 #themusic{
-    background-color:#ff7858;
+    background-color:#ff7858CC;
+    color:rgb(144,67,41);
 }
 
 #thevideo{
-    background-color:#f1ede2;
+    background-color:#f1ede2CC;
+    color:rgb(80,76,65)
 }
+
+h1 {
+    font-family: 'Allerta Stencil',sans-serif;
+    text-decoration:underline;
+}
+
 footer {
     position: fixed;
     bottom: 0;
     width: 100%;
     padding:0;
-    background-color:#f5cd6b;
+    background-color:#f5cd6bF2;
 }
 
+footer a {
+    color:rgb(158,110,2);
+}
+
+
+/*Font change to address the size change*/
 @media (max-width: 767px) {
     body {
         font-size: 15px;
