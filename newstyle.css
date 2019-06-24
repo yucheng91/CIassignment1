@@ -1,4 +1,6 @@
-/* global $*/
+/* global $ */
+
+$("#upcomingshow").hide();
 
 /*vintage container for the walters header*/
 
@@ -45,7 +47,7 @@
 
 body {
     text-align:center;
-    background:url("images/Background2.jpg");
+    background:url("images/background2.jpg");
 }
 
 header {
