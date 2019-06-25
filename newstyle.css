@@ -1,7 +1,3 @@
-/* global $ */
-
-$("#upcomingshow").hide();
-
 /*vintage container for the walters header*/
 
 .vintage__container {
@@ -77,22 +73,26 @@ img {
 
 #themembers{
     background-color:#f1ede2B3;
-    color:rgb(80,76,65)
+    color:rgb(80,76,65);
+    padding:20px;
 }
 
 #themembers img{
     border-radius: 30px;
     height:450px;
+    padding:20px;
 }
 
 #themusic{
     background-color:#ff7858B3;
     color:rgb(144,67,41);
+    padding:20px;
 }
 
 #thevideo{
     background-color:#f1ede2B3;
-    color:rgb(80,76,65)
+    color:rgb(80,76,65);
+    padding:20px;
 }
 
 h1 {
