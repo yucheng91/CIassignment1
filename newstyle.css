@@ -44,6 +44,7 @@
 body {
     text-align:center;
     background:url("images/background2.jpg");
+    background-attachment:fixed;
 }
 
 header {
@@ -138,7 +139,7 @@ footer a {
     
 }
 
-@media (max-width:359px) {
+@media (max-width:375px) {
     #thevideo {
         padding-bottom:76px;
     }
