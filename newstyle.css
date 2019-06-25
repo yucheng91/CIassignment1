@@ -93,6 +93,8 @@ img {
     background-color:#f1ede2B3;
     color:rgb(80,76,65);
     padding:20px;
+    /*different padding for bottom*/
+    padding-bottom:40px;
 }
 
 h1 {
@@ -136,8 +138,8 @@ footer a {
     
 }
 
-@media (max-width:375px) {
-    section {
+@media (max-width:359px) {
+    #thevideo {
         padding-bottom:76px;
     }
 }
