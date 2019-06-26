@@ -50,6 +50,8 @@ body {
 header {
     background-color:#f1ede2B3;
     color:rgb(80,76,65);
+    border-width:5px;  
+    border-style:double;
 }
 
 i {
@@ -66,6 +68,8 @@ img {
 #upcomingshow{
     background-color:#8adad7B3;
     color:rgb(54,138,138);
+    border-width:5px;  
+    border-style:double;
 }
 
 .text-content {
@@ -76,18 +80,21 @@ img {
     background-color:#f1ede2B3;
     color:rgb(80,76,65);
     padding:20px;
+    border-width:5px;  
+    border-style:double;
 }
 
 #themembers img{
     border-radius: 30px;
     height:450px;
-    padding:20px;
 }
 
 #themusic{
     background-color:#ff7858B3;
     color:rgb(144,67,41);
     padding:20px;
+    border-width:5px;  
+    border-style:double;
 }
 
 #thevideo{
@@ -96,6 +103,8 @@ img {
     padding:20px;
     /*different padding for bottom*/
     padding-bottom:40px;
+    border-width:5px;  
+    border-style:double;
 }
 
 h1 {

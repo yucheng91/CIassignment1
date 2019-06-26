@@ -1,8 +1,4 @@
 /* global $ */
-$(window).load(function(){
-    $('#myModal').modal('show');
-}); 
-
 $(function(){
     $("#thecarousel").hide().fadeIn(2000);
     $("#upcomingshow").hide().fadeIn(2500);
