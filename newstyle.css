@@ -101,8 +101,8 @@ img {
     background-color:#f1ede2B3;
     color:rgb(80,76,65);
     padding:20px;
-    /*different padding for bottom*/
-    padding-bottom:40px;
+    /*additional margin-bottom for the navbar resizing*/
+    margin-bottom:40px;
     border-width:5px;  
     border-style:double;
 }
@@ -134,10 +134,6 @@ footer a {
         font-size: 27px;
     }
     
-    h2 {
-        font-size: 20px;
-    }
-    
     p {
         font-size: 15px;
     }
@@ -148,8 +144,20 @@ footer a {
     
 }
 
-@media (max-width:375px) {
+@media (max-width:391px) {
     #thevideo {
-        padding-bottom:76px;
+        margin-bottom:76px;
     }
+    
+    .vintage {
+        font-size:30px;
+    }
+    footer .a {
+        font-size:12px;
+    }
+    
+    h1 {
+        font-size:20px;
+    }
+    
 }

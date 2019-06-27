@@ -1,8 +1,15 @@
 /* global $ */
+
+$("#thecarousel").hide();
+$("#upcomingshow").hide();
+$("#themembers").hide();
+$("#themusic").hide();
+$("#thevideo").hide();
+
 $(function(){
-    $("#thecarousel").hide().fadeIn(2000);
-    $("#upcomingshow").hide().fadeIn(2500);
-    $("#themembers").hide().fadeIn(3000);
-    $("#themusic").hide().fadeIn(3500);
-    $("#thevideo").hide().fadeIn(4000);
+    $("#thecarousel").fadeIn(2000);
+    $("#upcomingshow").fadeIn(2500);
+    $("#themembers").fadeIn(3000);
+    $("#themusic").fadeIn(3500);
+    $("#thevideo").fadeIn(4000);
 })
