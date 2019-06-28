@@ -27,7 +27,9 @@ The interactive features are as of following:
 - Youtube player for viewing of their music video 
 
 ## Testing
+The layout has been tested on Macbook/iPad Mini/Pixel 2 XL/iPhone SE covering various screen-size.  
 
+Embbeded spotify will play 30 seconds preview of each song and users will be able prompted to continue listening the full album on Spotify application (both on desktop and mobile devices)
 
 ## Credits 
 
