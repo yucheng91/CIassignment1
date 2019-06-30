@@ -101,8 +101,6 @@ img {
     background-color:#f1ede2B3;
     color:rgb(80,76,65);
     padding:20px;
-    /*additional margin-bottom for the navbar resizing*/
-    margin-bottom:40px;
     border-width:3px;  
     border-style:double;
 }
@@ -117,11 +115,11 @@ footer {
     bottom: 0;
     width: 100%;
     padding:0;
-    background-color:#f5cd6bF2;
+    background-color:#ca482e;
 }
 
 footer a {
-    color:rgb(158,110,2);
+    color:white;
 }
 
 /*Font change to address the size change*/
