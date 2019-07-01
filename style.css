@@ -44,30 +44,33 @@
 body {
     text-align:center;
     background:url("images/background2.jpg");
-    background-attachment:fixed;
 }
 
 header {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color:#ca482e;
+    background-color:#ca482eFA;
     z-index:1;
 }
 
 header a{
     color:white;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size:23px;
 }
 
 #title {
-    background-color:#f1ede2B3;
-    color:rgb(80,76,65);
+    color:rgb(255, 235, 201);
+    background:url("images/disc.jpg");
+    background-attachment:fixed;
+    border-color:#f1ede2B3;
     border-width:3px;  
     border-style:double;
 }
 
 i {
-    color:rgb(162,155,126);
+    color:rgb(255, 235, 201);
 }
 
 /*img is only for carousel*/
@@ -78,15 +81,16 @@ img {
 }
 
 #schedule{
-    background-color:#8adad7B3;
-    color:rgb(54,138,138);
+    background-color:#f1ede2B3;
+    color:rgb(80,76,65);
     border-width:3px;  
     border-style:double;
-    margin-bottom:22px;;
+    margin-bottom:22px;
+    padding:20px;
 }
 
 .text-content {
-    font-family: 'Space Mono', monospace;
+    font-family: 'Roboto', cursive;
 }
 
 #themembers{
@@ -106,25 +110,27 @@ img {
     background-color:#ff7858B3;
     color:rgb(144,67,41);
     padding:20px;
-    border-width:3px;  
-    border-style:double;
 }
 
 #thevideo{
-    background-color:#f1ede2B3;
-    color:rgb(80,76,65);
+    color:white;
     padding:20px;
-    border-width:3px;  
-    border-style:double;
+    background:url("images/music.jpg");
+    background-attachment:fixed;
+}
+
+#thevideo h1{
+    background-color:#000000BF;
 }
 
 h1 {
-    font-family: 'Allerta Stencil',sans-serif;
+    font-family: 'Nanum Pen Script', cursive;
     text-decoration:underline;
 }
 
+/* to ensure all content starts after nav bar*/
 #content {
-    margin-top: 40px;
+    margin-top: 50px;
     z-index:-1;
 }
 
@@ -136,17 +142,19 @@ footer {
     height:23px;
     background-color:#ca482eE6;
     color:white;
+    font-family: 'Nanum Pen Script', cursive;
 }
 
+/*anchor class to ensure that navbar will not be blocking the section title when clicked.*/
 .anchor{
   display: block;
-  height: 40px; /*same height as header*/
-  margin-top: -40px; /*same height as header*/
+  height: 50px;
+  margin-top: -50px; 
   visibility: hidden;
 }
 
 /*Font change to address the size change*/
-@media (max-width: 521px) {
+@media (max-width: 535px) {
     #content {
         font-size: 15px;
         margin-top:80px;
@@ -164,13 +172,13 @@ footer {
     }
     .anchor{
       display: block;
-      height: 76px; /*same height as header*/
-      margin-top: -76px; /*same height as header*/
+      height: 100px; 
+      margin-top: -100px; 
       visibility: hidden;
     }
 }
 
-@media (max-width:315px) {
+@media (max-width:330px) {
     .vintage {
         font-size:30px;
     }
@@ -186,8 +194,8 @@ footer {
     
     .anchor{
       display: block;
-      height: 120px; /*same height as header*/
-      margin-top: -120px; /*same height as header*/
+      height: 150px; 
+      margin-top: -150px; 
       visibility: hidden;
     }
     
