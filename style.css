@@ -1,122 +1,194 @@
+/*vintage container for the walters header*/
+
+.vintage__container {
+  display: inline-block;
+  margin: 25px auto 40px;
+}
+
+.vintage {
+  font-family: 'Six Caps', sans-serif;
+  font-size: 50px;
+  letter-spacing: 10px;
+  line-height: 1;
+  margin: 0;
+  position: relative;
+}
+
+.vintage__top {
+    color:rgb(255, 228, 193);
+    position: absolute;
+}
+
+.vintage__bot {
+  text-shadow: 
+    0px 0px rgb(255, 228, 193),
+    1px 1px rgb(255, 228, 193),
+    2px 2px rgb(100, 20, 15),
+    3px 3px rgb(105, 25, 20),
+    4px 4px rgb(110, 30, 25),
+    5px 5px rgb(115, 30, 30),
+    6px 6px rgb(120, 30, 35),
+    7px 7px black,
+    8px 8px black,
+    9px 9px black,
+    10px 10px black,
+    11px 11px rgba(0, 0, 0, 0.9),
+    12px 12px rgba(0, 0, 0, 0.7),
+    13px 13px rgba(0, 0, 0, 0.5),
+    14px 14px rgba(0, 0, 0, 0.1);
+
+}
+
+/*Style for entire website*/
+
 body {
-    color:white;
-    background-image: url("images/background.jpg");
-    background-position: center;
-    background-size:cover;
-}
-
-.container-fluid h1 {
-    font-weight: 100;
-    padding-top: 12px;
-    text-decoration: underline;
-}
-
-.container-fluid p {
     text-align:center;
+    background:url("images/background2.jpg");
+    background-attachment:fixed;
 }
 
-.border {
-    height:3px;
-    background-color:grey;
-    border:0;
-    padding:0;
-    color:grey;
-}
-
-.navbar  {
+header {
     position: fixed;
-    bottom: 0;
+    top: 0;
     width: 100%;
-    color: white;
-    font-weight:100;
-    background-color: #151516;
-    padding:0 ;
+    background-color:#ca482e;
+    z-index:1;
 }
 
-.col-2 {
-    padding:20px;
-    text-align:right;
-}
-
-a { 
+header a{
     color:white;
 }
 
-.upcomingshow {
-        background:rgba(0, 0, 0, 0.5);
+#title {
+    background-color:#f1ede2B3;
+    color:rgb(80,76,65);
+    border-width:3px;  
+    border-style:double;
 }
 
-.upcomingshow h2{
-    text-align:center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    text-decoration:underline;
-    font-weight:100;
+i {
+    color:rgb(162,155,126);
 }
 
-footer {
-    bottom:0 ;
-    width: 100%;
-}
-
-.rsvpbutton {
-    border:1px solid white;
-}
-
+/*img is only for carousel*/
 img {
-    height: 500px;
+    height: 550px;
     width: 100%;
     object-fit: cover;
 }
 
-.members {
-    padding:20px;
-    background-color:rgba(242, 242, 242,0.2);
+#schedule{
+    background-color:#8adad7B3;
+    color:rgb(54,138,138);
+    border-width:3px;  
+    border-style:double;
+    margin-bottom:22px;;
 }
 
-.music {
-    padding:20px;
-    background-color:rgba(0, 0, 0, 0.5);
+.text-content {
+    font-family: 'Space Mono', monospace;
 }
 
-h3 {
-    font-weight:100;
-    text-decoration: underline;
-}
-.video {
+#themembers{
+    background-color:#f1ede2B3;
+    color:rgb(80,76,65);
     padding:20px;
-}
-.card {
-    color:black;
-    background:rgba(255, 255, 255,0.95);
-    text-align:center;
+    border-width:3px;  
+    border-style:double;
 }
 
-@media (max-width: 767px) {
-    body {
+#themembers img{
+    border-radius: 30px;
+    height:450px;
+}
+
+#themusic{
+    background-color:#ff7858B3;
+    color:rgb(144,67,41);
+    padding:20px;
+    border-width:3px;  
+    border-style:double;
+}
+
+#thevideo{
+    background-color:#f1ede2B3;
+    color:rgb(80,76,65);
+    padding:20px;
+    border-width:3px;  
+    border-style:double;
+}
+
+h1 {
+    font-family: 'Allerta Stencil',sans-serif;
+    text-decoration:underline;
+}
+
+#content {
+    margin-top: 40px;
+    z-index:-1;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding:0;
+    height:23px;
+    background-color:#ca482eE6;
+    color:white;
+}
+
+.anchor{
+  display: block;
+  height: 40px; /*same height as header*/
+  margin-top: -40px; /*same height as header*/
+  visibility: hidden;
+}
+
+/*Font change to address the size change*/
+@media (max-width: 521px) {
+    #content {
         font-size: 15px;
+        margin-top:80px;
+    }
+    .vintage {
+        font-size:40px;
     }
     
     h1 {
         font-size: 27px;
     }
     
-    h2 {
-        font-size: 20px;
-    }
-    
     p {
         font-size: 15px;
     }
-    
-    navbar {
-        font-size: 15px;
+    .anchor{
+      display: block;
+      height: 76px; /*same height as header*/
+      margin-top: -76px; /*same height as header*/
+      visibility: hidden;
     }
-    
 }
 
-@media (max-width:359px) {
-    section {
-        padding-bottom:76px;
+@media (max-width:315px) {
+    .vintage {
+        font-size:30px;
     }
+    
+    #content {
+        font-size: 15px;
+        margin-top:120px;
+    }
+    
+    h1 {
+        font-size:20px;
+    }
+    
+    .anchor{
+      display: block;
+      height: 120px; /*same height as header*/
+      margin-top: -120px; /*same height as header*/
+      visibility: hidden;
+    }
+    
 }

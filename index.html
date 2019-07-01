@@ -8,7 +8,7 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="newstyle.css" type="text/css" />
+  <link rel="stylesheet" href="style.css" type="text/css" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
   <link href='https://fonts.googleapis.com/css?family=Allerta Stencil' rel='stylesheet'>
   <link href="https://fonts.googleapis.com/css?family=Space+Mono&display=swap" rel="stylesheet">
@@ -17,59 +17,75 @@
 </head>
 
 <body>
-
   <header>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col">
-          <a name="Home">
+    <ul class="nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link active" href="#navhome">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#navwalters">The Walters</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#navmusic">The Music</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#navvideo">The Video</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#navschedule">Schedule</a>
+      </li>
+    </ul>
+  </header>
+
+  <section id="content">
+    <section id="title">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <span id="navhome" class="anchor"></span>
             <div class="vintage__container">
               <p class="vintage vintage__bot">THE WALTERS</p>
             </div>
+          </div>
         </div>
-        </a>
+        <div>
+          <a href="https://www.facebook.com/TheWaltersband"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+          <a href="https://twitter.com/TheWalters_"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+          <a href="https://www.instagram.com/thewalters_/?hl=en"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+          <a href="https://www.youtube.com/channel/UCm54E8Hlf_z1GIpVUChBTQA"><i class="fa fa-youtube-square fa-2x" aria-hidden="true"></i></a>
+        </div>
       </div>
-      <div>
-        <a href="https://www.facebook.com/TheWaltersband"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
-        <a href="https://twitter.com/TheWalters_"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
-        <a href="https://www.instagram.com/thewalters_/?hl=en"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
-        <a href="https://www.youtube.com/channel/UCm54E8Hlf_z1GIpVUChBTQA"><i class="fa fa-youtube-square fa-2x" aria-hidden="true"></i></a>
       </div>
-    </div>
-    </div>
-    </br>
-  </header>
+      </br>
+    </section>
 
-  </section>
-  <section id="thecarousel">
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img class="d-block w-100" src="images/c1.jpg" alt="The Walters Group Photo 1">
+    <section id="thecarousel">
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="images/c1.jpg" alt="The Walters Group Photo 1">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/c2.jpg" alt="The Walters Group Photo 2">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/c3.jpg" alt="The Walters Group Photo 3">
+          </div>
         </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="images/c2.jpg" alt="The Walters Group Photo 2">
-        </div>
-        <div class="carousel-item">
-          <img class="d-block w-100" src="images/c3.jpg" alt="The Walters Group Photo 3">
-        </div>
-      </div>
-      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
-    </div>
-  </section>
+      </div>
+    </section>
 
-  <section id="themembers">
-    <div class="members">
-      <a name="TheWalters">
-        <h1>The Walters</h1>
-      </a>
+    <section id="themembers">
+      <span id="navwalters" class="anchor"></span>
+      <h1>The Walters</h1>
       <div class="text-content">
         <p>The Walters were an unsigned five-piece indie rock band from Chicago, Illinois. As of 2017 they had released two albums and three singles and were touring the United States on their first national tour.</p>
         <p>The band formed in Chicago Illinois in 2014 after the band's guitarist and namesake Walter Kosner moved from Connecticut to Chicago in an attempt to attend DePaul University. After dropping out of the school, Kosner recruited the rest of the band
@@ -131,15 +147,11 @@
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-
-  <section id="themusic">
-    <div class="music">
-      <a name="Music">
-        <h1>The Music</h1>
-      </a>
+    <section id="themusic">
+      <span id="navmusic" class="anchor"></span>
+      <h1>The Music</h1>
       <div class="container-fluid">
         <div class="row">
           <div class="col-2"></div>
@@ -150,28 +162,26 @@
             <iframe src="https://open.spotify.com/embed/album/5ADia0t4o7pA8dyi8jRA4E" style="border: 0; width: 100%; height: 380px;" allowfullscreen allow="autoplay; encrypted-media"></iframe>
           </div>
           <div class="col-2"></div>
-        </div>
-  </section>
+    </section>
 
-  <section id="thevideo">
-    <div class="video">
-      <a name="Video">
-        <h1>The Video</h1>
-      </a>
+    <section id="thevideo">
+      <span id="navvideo" class="anchor"></span>
+      <h1>The Video</h1>
       <div class="embed-responsive embed-responsive-16by9">
         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/5zfrnme2nJ4" allowfullscreen></iframe>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="upcomingshow">
-    <div>
-      <h1>Upcoming Shows 2019</h1>
+    <section id="schedule">
+      <span id="navschedule" class="anchor"></span>
+      <div>
+        <h1>Schedule 2019</h1>
+      </div>
       <div class="text-content">
         <div class="container-fluid">
           <div class="row">
             <div class="col-12 col-md-3">
-              <p>26-27 JUL</p>
+              <p>26 July, 8:30pm</p>
             </div>
             <div class="col-12 col-md-6">
               <p>Hard Rock Hotel, Resort World Sentosa</p>
@@ -180,10 +190,9 @@
               <a href="https://www.eventbrite.sg"><button type="button" class="btn btn-dark">RSVP</button></p></a>
             </div>
           </div>
-
           <div class="row">
             <div class="col-12 col-md-3">
-              <p>30-31 AUG</p>
+              <p>30 August, 8pm</p>
             </div>
             <div class="col-12 col-md-6">
               <p>Hard Rock Cafe, Orchard Singapore</p>
@@ -194,7 +203,7 @@
           </div>
           <div class="row">
             <div class="col-12 col-md-3">
-              <p>27-28 SEP</p>
+              <p>27 September, 8:30pm</p>
             </div>
             <div class="col-12 col-md-6">
               <p>Hard Rock Hotel, Resort World Sentosa</p>
@@ -205,7 +214,7 @@
           </div>
           <div class="row">
             <div class="col-12 col-md-3">
-              <p>26-27 OCT</p>
+              <p>26 October, 8pm</p>
             </div>
             <div class="col-12 col-md-6">
               <p>Hard Rock Cafe, Orchard Singapore</p>
@@ -216,23 +225,11 @@
           </div>
         </div>
       </div>
+    </section>
   </section>
 
   <footer>
-    <ul class="nav justify-content-start">
-      <li class="nav-item">
-        <a class="nav-link active" href="#Home">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#TheWalters">The Walters</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#Music">The Music</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#Video">The Video</a>
-      </li>
-    </ul>
+    <p>Designed by Yu Cheng</p>
   </footer>
 
   <!-- Optional JavaScript -->
