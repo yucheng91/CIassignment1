@@ -86,7 +86,7 @@ img {
     border-width:3px;  
     border-style:double;
     margin-bottom:22px;
-    padding:20px;
+    padding:10px;
 }
 
 .text-content {
@@ -96,7 +96,7 @@ img {
 #themembers{
     background-color:#f1ede2B3;
     color:rgb(80,76,65);
-    padding:20px;
+    padding:10px;
     border-width:3px;  
     border-style:double;
 }
@@ -109,12 +109,12 @@ img {
 #themusic{
     background-color:#ff7858B3;
     color:rgb(144,67,41);
-    padding:20px;
+    padding:10px;
 }
 
 #thevideo{
     color:white;
-    padding:20px;
+    padding:10px;
     background:url("images/music.jpg");
     background-attachment:fixed;
 }
@@ -148,8 +148,8 @@ footer {
 /*anchor class to ensure that navbar will not be blocking the section title when clicked.*/
 .anchor{
   display: block;
-  height: 50px;
-  margin-top: -50px; 
+  height: 60px;
+  margin-top: -60px; 
   visibility: hidden;
 }
 
@@ -157,7 +157,7 @@ footer {
 @media (max-width: 535px) {
     #content {
         font-size: 15px;
-        margin-top:80px;
+        margin-top:100px;
     }
     .vintage {
         font-size:40px;
@@ -172,8 +172,8 @@ footer {
     }
     .anchor{
       display: block;
-      height: 100px; 
-      margin-top: -100px; 
+      height: 110px; 
+      margin-top: -110px; 
       visibility: hidden;
     }
 }
@@ -185,7 +185,7 @@ footer {
     
     #content {
         font-size: 15px;
-        margin-top:120px;
+        margin-top:150px;
     }
     
     h1 {
@@ -194,8 +194,8 @@ footer {
     
     .anchor{
       display: block;
-      height: 150px; 
-      margin-top: -150px; 
+      height: 160px; 
+      margin-top: -160px; 
       visibility: hidden;
     }
     
