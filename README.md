@@ -10,7 +10,7 @@ As the band is relatively young (establish in 2014) with limited discography hen
 
 I have planned the website to be a single-page scrolling layout hence the user will be able to view all information within a single page.  
 
-The site acts as a supplementary site on top of their exisitng social media platform . 
+The site acts as a supplementary site on top of their existing social media platform . 
 
 Based on the tone of their music (indie/alternative rock), I have selected a color scheme that reflects more on retro/nostalgia theme.
 
@@ -24,23 +24,24 @@ Based on the tone of their music (indie/alternative rock), I have selected a col
 
 ## Features
 The interactive features are as of following:  
-- Social Media buttons under main group name (Facebook/Twitter/Instagram/Youtube)
-- The RSVP Button for visitors to RSVP to the event
-- Spotify embedded player for vistors to have sneak peek of the song on site itself
+- Social Media buttons under main group logo (Facebook/Twitter/Instagram/Youtube)
+- Spotify embedded player for visitors to have sneak peek of the song on site itself
 - Youtube player for viewing of their music video 
+- The RSVP Button for visitors to RSVP to the event
 
 ## Testing
-The layout has been tested on Macbook/iPad Mini(2018) /Pixel 2 XL/iPhone SE covering various screen-size.
+The layout has been tested on Windows laptop/Macbook/iPad Mini(2018) /Pixel 2 XL/iPhone SE covering various screen-size. Browser used for testing are Microsoft Edge, Google Chrome & Apple Safari.
 
-I found out that 8 digits HEX code does not work with Microsoft Edge browser hence I have converted all the hex code into RBGA color code instead.
+During the testing, these are the following findings :  
+- I found out that 8 digits HEX code does not work with Microsoft Edge browser hence I have converted all the hex code into RBGA color code instead.
+- The carousel buttons with < & > were found overlapping the nav bar/footer hence I have hide its visibility while maintaining its function to click/scroll over the pictures. 
+- Removed fixed background-attachment to achieve consistency across multiple devices as certain devices are not compatible with the setting.
 
-The carousel buttons with < & > were found overlapping the nav bar/footer hence I have hide its visibility while maintaining its function to click/scroll over the pictures.
+All the links on the navbar will brings the user back to the segment they are interesting in, however, user can expect to see part of Video section as the Schedule section height does not cover the entire screen height.
 
-Removed fixed background-attachment as it is not working with mobile browser.
+All the social media buttons has been linked directly to their band's existing social network profile.
 
-All the social media buttons has been linked directly to their band's exisitng social network profile.
-
-Embbeded spotify will play 30 seconds preview of each song and users will be able prompted to continue listening the full album on Spotify application (both on desktop and mobile devices)
+Embedded Spotify player will play 30 seconds preview of each song and users will be able prompted to continue listening the full album on Spotify application (both on desktop and mobile devices)
 
 Clicking on the RSVP link under schedule will brings the visitors to EventBrite site which is an online event management platform where users are able to RSVP/purchase event entry tickets.
 
@@ -54,6 +55,7 @@ Wikipedia (For band introduction)
 Thesedays.news interview (For members profile)
 The Walters @ Youtube (For video content)
 The Walters @ Spotify (For music content)
+Background were taken from Pexels
 
 ### Design
 Codepen.io design inspiration for The Walters logo (https://codepen.io/ThibaultJanBeyer/pen/xOgmvz)
