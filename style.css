@@ -50,7 +50,7 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color:#ca482eFA;
+    background-color:rgba(202, 72, 46, 0.98);
     z-index:1;
 }
 
@@ -64,7 +64,7 @@ header a{
     color:rgb(255, 235, 201);
     background:url("images/disc.jpg");
     background-attachment:fixed;
-    border-color:#f1ede2B3;
+    border-color:rgba(241, 237, 226, 0.75);
     border-width:3px;  
     border-style:double;
 }
@@ -81,7 +81,7 @@ img {
 }
 
 #schedule{
-    background-color:#f1ede2B3;
+    background-color:rgba(241, 237, 226, 0.75);
     color:rgb(80,76,65);
     border-width:3px;  
     border-style:double;
@@ -94,7 +94,7 @@ img {
 }
 
 #themembers{
-    background-color:#f1ede2B3;
+    background-color:rgba(241, 237, 226, 0.75);
     color:rgb(80,76,65);
     padding:10px;
     border-width:3px;  
@@ -107,7 +107,7 @@ img {
 }
 
 #themusic{
-    background-color:#ff7858B3;
+    background-color:rgba(255, 120, 88, 0.75);
     color:rgb(144,67,41);
     padding:10px;
 }
@@ -120,7 +120,7 @@ img {
 }
 
 #thevideo h1{
-    background-color:#000000BF;
+    background-color:rgba(0, 0, 0, 0.75);
 }
 
 h1 {
@@ -140,7 +140,7 @@ footer {
     width: 100%;
     padding:0;
     height:23px;
-    background-color:#ca482eE6;
+    background-color:rgba(202, 72, 46, 0.9);
     color:white;
     font-family: 'Nanum Pen Script', cursive;
 }

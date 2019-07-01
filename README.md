@@ -31,6 +31,7 @@ The interactive features are as of following:
 
 ## Testing
 The layout has been tested on Macbook/iPad Mini(2018) /Pixel 2 XL/iPhone SE covering various screen-size.
+I found out that 8 digits HEX code does not work with Microsoft Edge browser hence I have converted all the hex code into RBGA color code instead.
 
 All the social media buttons has been linked directly to their band's exisitng social network profile.
 
