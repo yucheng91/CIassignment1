@@ -66,6 +66,7 @@ header a{
     border-color:rgba(241, 237, 226, 0.75);
     border-width:3px;  
     border-style:double;
+    padding-bottom:20px;
 }
 
 i {
@@ -120,13 +121,14 @@ img {
     background:url("images/music.jpg");
 }
 
-#thevideo h1{
+#thevideo h2{
     background-color:rgba(0, 0, 0, 0.75);
 }
 
-h1 {
+h2 {
     font-family: 'Nanum Pen Script', cursive;
     text-decoration:underline;
+    font-size:40px;
 }
 
 /* to ensure all content starts after nav bar*/
@@ -164,8 +166,8 @@ footer {
         font-size:40px;
     }
     
-    h1 {
-        font-size: 27px;
+    h2 {
+        font-size: 30px;
     }
     
     p {
@@ -179,7 +181,7 @@ footer {
     }
 }
 
-@media (max-width:330px) {
+@media (max-width:332px) {
     .vintage {
         font-size:30px;
     }
@@ -189,8 +191,8 @@ footer {
         margin-top:150px;
     }
     
-    h1 {
-        font-size:20px;
+    h2 {
+        font-size:25px;
     }
     
     .anchor{
@@ -200,20 +202,4 @@ footer {
       visibility: hidden;
     }
     
-}
-
-/* For iphone 5/SE only */
-@media (max-width:320px) {
-
-    
-    #content {
-        margin-top:100px;
-    }
-    
-    .anchor{
-      display: block;
-      height: 110px; 
-      margin-top: -110px; 
-      visibility: hidden;
-    }
 }
