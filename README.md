@@ -31,7 +31,12 @@ The interactive features are as of following:
 
 ## Testing
 The layout has been tested on Macbook/iPad Mini(2018) /Pixel 2 XL/iPhone SE covering various screen-size.
+
 I found out that 8 digits HEX code does not work with Microsoft Edge browser hence I have converted all the hex code into RBGA color code instead.
+
+The carousel buttons with < & > were found overlapping the nav bar/footer hence I have hide its visibility while maintaining its function to click/scroll over the pictures.
+
+Removed fixed background-attachment as it is not working with mobile browser.
 
 All the social media buttons has been linked directly to their band's exisitng social network profile.
 
@@ -43,13 +48,12 @@ Clicking on the RSVP link under schedule will brings the visitors to EventBrite 
 
 ### Content 
 The Walters Band
-
 Wikipedia (For band introduction)
 
 ### Media
 Thesedays.news interview (For members profile)
-Youtube (For video content)
-Spotify (For music content)
+The Walters @ Youtube (For video content)
+The Walters @ Spotify (For music content)
 
 ### Design
 Codepen.io design inspiration for The Walters logo (https://codepen.io/ThibaultJanBeyer/pen/xOgmvz)

@@ -63,7 +63,6 @@ header a{
 #title {
     color:rgb(255, 235, 201);
     background:url("images/disc.jpg");
-    background-attachment:fixed;
     border-color:rgba(241, 237, 226, 0.75);
     border-width:3px;  
     border-style:double;
@@ -93,6 +92,9 @@ img {
     font-family: 'Roboto', cursive;
 }
 
+#thecarousel span {
+    visibility: hidden;
+}
 #themembers{
     background-color:rgba(241, 237, 226, 0.75);
     color:rgb(80,76,65);
@@ -116,7 +118,6 @@ img {
     color:white;
     padding:10px;
     background:url("images/music.jpg");
-    background-attachment:fixed;
 }
 
 #thevideo h1{
